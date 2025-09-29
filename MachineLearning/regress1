@@ -1,0 +1,7 @@
+import numpy as np 
+
+arr1 = np.array([1,2,3,4,5])
+
+arr2 = np.loadtxt('olympic100m.txt',delimiter=',')
+
+print(arr2)
